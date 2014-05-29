@@ -1,0 +1,13 @@
+{
+  "name": "bovary",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [
+    "tiste <contact@tiste.io>"
+  ],
+  "private": false,
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "underscore": "~1.6.0"
+  }
+}
