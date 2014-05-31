@@ -1,1 +1,13 @@
 - title product.title
+
+.container.push-under-header
+  .row
+    .col-md-8.col-md-offset-1.pull-right
+      h1.upper= product.title
+      p= product.description
+
+      = image_tag "#{product.image}", class: 'max-width pvxl'
+
+    .col-md-3
+      = image_tag 'logo.png', class: 'max-width'
+
