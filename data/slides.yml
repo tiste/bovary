@@ -1,0 +1,16 @@
+-
+  description: |
+    <h3>Le champagne Bovary incarne toute l'élégance et le raffinement à la française</h3>
+  image: slides/paris.jpg
+
+-
+  description: |
+    <h3>Le champagne Bovary est un premier cru</h3>
+    <p>C'est à dire issus des meilleurs cépages de champagne</p>
+  image: slides/vines.jpg
+
+-
+  description: |
+    <h3>Suspendez le temps par un intervalle de champagne Bovary !</h3>
+    <p>Envolez-vous par les fines et légères bulles de champagne Bovary !</p>
+  image: slides/library.jpg

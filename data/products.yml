@@ -1,0 +1,46 @@
+-
+  description: |
+    <p>Champagne embl&eacute;matique de la Maison Bovary, il est l&#39;expression du raffinement&nbsp;et de l&#39;&eacute;l&eacute;gance.</p>
+    <p>Cet assemblage savamment dos&eacute; permet &agrave; cette cuv&eacute;e brut premier&nbsp;cru de b&eacute;n&eacute;ficier d&#39;une renomm&eacute;e et d&#39;une qualit&eacute; intemporelle.&nbsp;Une fl&ucirc;te de ce champagne vous transporte vers un imaginaire artistique et&nbsp;po&eacute;tique : toute l&#39;&acirc;me Bovaryenne.</p>
+    <p>Son tourbillon de fines bulles laisse entrem&ecirc;ler&nbsp;l&#39;art et la litt&eacute;rature, Tandis que son nez vous emm&egrave;nera aux jardins fleuris d&#39;&eacute;poque.</p>
+    <p>Ce final soigneusement harmonis&eacute;, accompagnera &agrave; merveille la r&eacute;ussite de vos&nbsp;moments inoubliables.</p>
+    <p>&nbsp;</p>
+    <p>La vue : sa robe est d&#39;un bel or pur. Ce tr&eacute;sor est accompagn&eacute; d&#39;un tumulte de fines bulles.</p>
+    <p>L&#39;odorat : le nez fr&eacute;mi par les ar&ocirc;mes floraux et d&#39;aub&eacute;pine. L&#39;acacia renforce la sensation de finesse.</p>
+    <p>Le go&ucirc;t : la bouche est d&eacute;licate et d&#39;un bel &eacute;quilibre.</p>
+    <p>L&#39;assemblage : mariage parfait des trois c&eacute;pages : 40% chardonnay, 40% pinot noir et 20% pinot Meunier.</p>
+  image: products/brut.jpg
+  price: 32.0
+  slug: brut
+  title: Le Raffinement du Champagne Brut Premier Cru
+
+-
+  description: |
+    <p>Admirez la beaut&eacute; d&#39;un couch&eacute; du soleil, le toucher d&eacute;licat d&#39;une &eacute;toffe,&nbsp;le croquant et la douceur d&#39;un macaron, la senteur d&#39;un bouquet du jardin... Puis d&eacute;lectez-vous&nbsp;du d&eacute;lice enivrant d&#39;une fl&ucirc;te de champagne ros&eacute; Bovary teint&eacute; du bonheur de moments intimes.&nbsp;Succombez ainsi &agrave; sa d&eacute;licate teinte ros&eacute;e qui le pare de f&eacute;minit&eacute;, de chic et de glamour...</p>
+    <p>Appr&eacute;ciez l&#39;alchimie ma&icirc;tris&eacute;e entre Chardonnay, Pinot noir et vin rouge champagne.&nbsp;L&#39;explosion de saveurs qui en r&eacute;sulte s&#39;accordera parfaitement avec toutes vos audaces culinaires, plaisirs sucr&eacute;s et sal&eacute;s.</p>
+    <p>La subtilit&eacute; des bulles du champagne ros&eacute; vous emm&egrave;neront dans l&#39;univers du charme et des gourmandises de l&#39;esprit Bovary.</p>
+    <p>&nbsp;</p>
+    <p>La vue : sa robe a la couleur de la passion et de l&#39;amour. Ses bulles sont fines et d&eacute;licates. Une &eacute;l&eacute;gance toute &quot;Bovaryenne&quot;.</p>
+    <p>L&#39;odorat : le nez affiche des ar&ocirc;mes de fleurs de jasmin avec des allusions de fruits exotiques.</p>
+    <p>Le go&ucirc;t : doux et frais &agrave; la fois avec une touche de pamplemousse rose.</p>
+    <p>L&#39;assemblage : 70% chardonnay, 20% Pinot noir, 10% de vin rouge champagne.</p>
+  image: products/rose.jpg
+  price: 35.0
+  slug: rose
+  title: Le Romantisme du Champagne Rosé Premier Cru
+
+-
+  description: |
+    <p>Le champagne Blanc de Blancs est &eacute;labor&eacute; int&eacute;gralement de Chardonnay.&nbsp;Ce c&eacute;page est l&#39;esprit de la maison Bovary : il est au coeur de chacun de nos champagnes.</p>
+    <p>Doux et distingu&eacute;, il n&#39;exprime sa force et son caract&egrave;re qu&#39;au terme d&#39;ann&eacute;es de maturation. Il emporte dans un monde lointain o&ugrave; la d&eacute;licatesse et la pr&eacute;cision s&#39;expriment, o&ugrave; la gr&acirc;ce et l&#39;&eacute;l&eacute;gance sont majest&eacute;s.&nbsp;</p>
+    <p>Elabor&eacute; en plein coeur de la c&ocirc;te des blancs, ce vin de champagne est n&eacute; du mariage de l&#39;authenticit&eacute; et de la puret&eacute;. Sa luminosit&eacute; &eacute;voque la fra&icirc;cheur de la neige, ses&nbsp;bulles rappellent la l&eacute;g&egrave;ret&eacute; des flocons : il inspire l&#39;&eacute;merveillement, comme face &agrave; un sommet immacul&eacute;.</p>
+    <p>Sa raret&eacute; tr&egrave;s convoit&eacute;e fera de votre r&eacute;ception un moment privil&eacute;gi&eacute;.&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>La vue : sa robe a la couleur du paradis blanc : limpide et brillant. Un tourbillon de bulles pour envo&ucirc;tement.</p>
+    <p>L&#39;odorat : le nez est frais gr&acirc;ce aux ar&ocirc;mes de fleurs blanches, avec &agrave; l&#39;a&eacute;ration, une touche d&#39;abricot.</p>
+    <p>Le go&ucirc;t : des notes d&eacute;licates de r&eacute;glisse et d&#39;anis conf&egrave;rent une belle longueur en bouche.</p>
+    <p>L&#39;assemblage : 100% chardonnay.</p>
+  image: products/blanc_de_blanc.jpg
+  price: 36.0
+  slug: blanc_de_blanc
+  title: La Pureté du Champagne Blanc de Blancs Premier Cru

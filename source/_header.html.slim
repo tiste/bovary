@@ -1,0 +1,22 @@
+nav.navbar.navbar-inverse.mbn.pos-fixed.max-width role="navigation"
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle data-target=".collapse" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.ptn.mll href="/"
+        = image_tag 'header.png'
+
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          = link_to 'Accueil', '/'
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            | Produits
+            b.mls.mbs.caret
+          ul.dropdown-menu
+            - data.products.each do |product|
+              li= link_to product.title, "/products/#{product.slug}"

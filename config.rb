@@ -8,6 +8,10 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+data.products.each do |product|
+  proxy "/products/#{product.slug}/index.html", '/products/show.html', locals: { product: product }, ignore: true
+end
+
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
 set :js_dir, 'javascripts'

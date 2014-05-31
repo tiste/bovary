@@ -1,0 +1,39 @@
+#m-carousel.carousel.slide data-ride="carousel"
+  .carousel-inner
+    - data.slides.each_with_index do |slide, i|
+      .item class=('active' if i == 0)
+        = image_tag slide.image
+        .carousel-caption
+          = slide.description
+
+  a.left.carousel-control data-slide="prev" href="#m-carousel"
+    span.glyphicon.glyphicon-chevron-left
+  a.right.carousel-control data-slide="next" href="#m-carousel"
+    span.glyphicon.glyphicon-chevron-right
+
+.container-fluid
+  .row
+    .col-md-8.pln.prn.clouds.pull-right
+      .container-fluid
+        .row
+          .col-lg-9.col-md-12
+            - data.products.each_with_index do |product, i|
+              .container-fluid.mtl.pvxl
+                .row
+                  .col-lg-7.col-md-12.col-xs-12.m-product--preview.cover.mbl style="background-image: url(/images/#{product.image})" class=('pull-right' if i.modulo(2) == 0)
+
+                  .col-lg-5
+                    = link_to product.title, "/products/#{product.slug}", class: 'h1 upper mtn'
+                    p= truncate(strip_tags(product.description), length: 350, omission: '...')
+
+    .col-md-4.pln.prn
+      .container-fluid
+        .row
+          .col-lg-6.col-lg-offset-6.col-md-12
+            h3.upper Champagne Bovary
+
+            hr
+
+            p Le champagne Bovary incarne toute l’élégance et le raffinement à la française. Empreint d’art et de culture, le champagne Bovary est un hommage à la littérature avec Gustave Flaubert et à la peinture avec l’impressionniste James Tissot. On retrouve ces maîtres sur les coffrets-collections en série limitée et numérotée.
+
+            p Le champagne Bovary ne se limite pas à son nom, il s’illustre également par sa qualité. En effet, le champagne Bovary est un premier cru, c’est-à-dire issus des meilleurs cépages de champagne, et en plus issus de Hautvillers, village près d’Epernay en Champagne où vécu le moine Dom Pérignon. Ce village possède l’un des meilleurs classements de premiers crus de Champagne: sa cotation est de 95 sur 100 !
