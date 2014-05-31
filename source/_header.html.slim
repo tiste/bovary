@@ -20,3 +20,5 @@ nav.navbar.navbar-inverse.mbn.pos-fixed.max-width role="navigation"
           ul.dropdown-menu
             - data.products.each do |product|
               li= link_to product.title, "/products/#{product.slug}"
+        li
+          = link_to 'Contact', '/contact.html'

@@ -96,9 +96,12 @@ $line-height-base: 2
   text-transform: uppercase
   z-index: 999
 
-a:hover
-  color: #C2A85A
-  text-decoration: none
+a
+  color: #333
+
+  &:hover
+    color: #C2A85A
+    text-decoration: none
 
 @each $color in $colors
   .#{nth($color, 1)}
