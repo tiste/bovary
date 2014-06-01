@@ -13,7 +13,7 @@
 
 .container-fluid
   .row
-    .col-md-8.pln.prn.clouds.pull-right
+    .col-md-8.pln.prn.clouds.pull-right.z-index-10
       .container-fluid
         .row
           .col-lg-9.col-md-12
@@ -24,7 +24,7 @@
 
                   .col-lg-5
                     = link_to product.title, "/products/#{product.slug}", class: 'h1 upper mtn'
-                    p= truncate(strip_tags(product.description), length: 350, omission: '...')
+                    p= truncate(strip_tags(product.description), length: 350, omission: '... ' + link_to('Voir le produit', "/products/#{product.slug}"))
 
     .col-md-4.pln.prn
       .container-fluid

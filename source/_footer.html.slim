@@ -1,7 +1,7 @@
 footer.m-footer.black.pvxl
   .container
     .row
-      .col-md-4
+      .col-md-3
         .h3.upper Bovary
 
         address
@@ -9,9 +9,13 @@ footer.m-footer.black.pvxl
           br
           | 59550 Douai
 
-      .col-md-4
+      .col-md-5
         .h3.upper Contact
-        = link_to 'champagnebovary@gmail.com', 'mailto:champagnebovary@gmail.com'
+
+        - unless current_page.path == 'contact/index.html'
+          = partial 'contact_form'
+        - else
+          = link_to 'champagnebovary@gmail.com', 'mailto:champagnebovary@gmail.com'
 
       .col-md-4
         .h3.upper Réseaux sociaux

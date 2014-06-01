@@ -1,0 +1,9 @@
+form.mtl action="mailto:champagnebovary@gmail.com" enctype="text/plain"
+  .form-group
+    input.form-control.m-contact--subject name="subject" type="text" placeholder="Sujet"
+
+  .form-group
+    textarea.form-control.m-contact--body name="body" placeholder="Message" rows="4"
+
+  .form-group
+    input.btn.btn-success.btn-inverse.pull-right type="button" onclick="sendMail()" value="Envoyer"

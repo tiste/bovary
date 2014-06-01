@@ -1,15 +1,18 @@
 - title 'Contact'
 
-= content_for :scripts do
+- content_for :scripts do
   coffee:
     maxHeight()
 
 .container-fluid.height-100
   .row.height-100
     .col-md-6.col-xs-12.pln.prn.pull-right.push-under-header
-      .text-center
+      .text-center.pvxl
         = image_tag 'logo.png'
 
-        h1.upper= link_to 'champagnebovary@gmail.com', 'mailto:champagnebovary@gmail.com'
+        .container-fluid
+          .row
+            .col-md-6.col-md-offset-3
+              = partial 'contact_form'
 
-    .col-md-6.height-100.pln.prn.cover.hidden-sm.hidden-xs style="background-image: url(/images/bottle.jpg)"
+    .col-md-6.height-100.pln.prn.cover.hidden-sm.hidden-xs style="background-image: url(/images/bottle.jpg); background-position: center 100%;"

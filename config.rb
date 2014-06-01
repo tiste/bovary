@@ -12,6 +12,8 @@ data.products.each do |product|
   proxy "/products/#{product.slug}/index.html", '/products/show.html', locals: { product: product }, ignore: true
 end
 
+proxy '/contact/index.html', '/contact.html', ignore: true
+
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
 set :js_dir, 'javascripts'
