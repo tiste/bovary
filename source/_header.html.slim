@@ -6,8 +6,10 @@ nav.navbar.navbar-inverse.mbn.pos-fixed.max-width role="navigation"
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand.ptn.mls href="/"
+      a.navbar-brand.ptn.mls.hidden-xs href="/"
         = image_tag 'header.png'
+
+      a.navbar-brand.hidden-lg.hidden-md.hidden-sm href="/" Bovary
 
     .collapse.navbar-collapse
       ul.nav.navbar-nav.navbar-right
@@ -15,7 +17,7 @@ nav.navbar.navbar-inverse.mbn.pos-fixed.max-width role="navigation"
           = link_to 'Accueil', '/'
         li.dropdown
           a.dropdown-toggle data-toggle="dropdown" href="#"
-            | Produits
+            | Nos champagnes
             b.mls.mbs.caret
           ul.dropdown-menu
             - data.products.each do |product|

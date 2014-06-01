@@ -18,7 +18,7 @@
         .row
           .col-lg-9.col-md-12
             - data.products.each_with_index do |product, i|
-              .container-fluid.mtl.pvxl
+              .container-fluid.mtl.pvxl data-scroll-reveal=((i.modulo(2) == 0) ? 'enter left' : 'enter right')
                 .row
                   .col-lg-7.col-md-12.col-xs-12.m-product--preview.cover.mbl style="background-image: url(images/#{product.image})" class=('pull-right' if i.modulo(2) == 0)
 

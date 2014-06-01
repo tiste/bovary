@@ -8,6 +8,8 @@
   "private": false,
   "dependencies": {
     "jquery": "~2.1.0",
+    "parallaxify": "https://github.com/hwthorn/parallaxify.git",
+    "scrollReveal.js": "~0.1.3",
     "underscore": "~1.6.0"
   }
 }
