@@ -13,6 +13,7 @@ data.products.each do |product|
 end
 
 proxy '/contact/index.html', '/contact.html', ignore: true
+proxy '/esprit-bovary/index.html', '/esprit_bovary.html', ignore: true
 
 set :css_dir, 'stylesheets'
 set :images_dir, 'images'
