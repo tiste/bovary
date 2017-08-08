@@ -105,7 +105,7 @@ a
     text-decoration: none
 
 @each $color in $colors
-  .#{nth($color, 1)}
+  .#{"" + nth($color, 1)}
     background-color: nth($color, 2)
 
     @if lightness(nth($color, 2)) > 80%
@@ -124,5 +124,5 @@ a
     &.transparent
       background-color: rgba(nth($color, 2), .8)
 
-  .text-#{nth($color, 1)}
+  .text-#{"" + nth($color, 1)}
     color: nth($color, 2)

@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "homepage": "",
   "authors": [
-    "tiste <contact@tiste.io>"
+    "Baptiste Lecocq <hello@tiste.io>"
   ],
   "private": false,
   "dependencies": {
     "jquery": "~2.1.0",
     "parallaxify": "https://github.com/hwthorn/parallaxify.git",
-    "scrollReveal.js": "~0.1.3",
+    "scrollReveal.js": "https://github.com/jlmakes/scrollreveal.git#2.0.0",
     "underscore": "~1.6.0"
   }
 }
