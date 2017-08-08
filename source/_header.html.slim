@@ -1,0 +1,28 @@
+nav.navbar.navbar-inverse.mbn.pos-fixed.max-width role="navigation"
+  .container
+    .navbar-header
+      button.navbar-toggle data-target=".collapse" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.ptn.mls.hidden-xs href="/"
+        = image_tag 'header.png'
+
+      a.navbar-brand.hidden-lg.hidden-md.hidden-sm href="/" Bovary
+
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          = link_to 'Accueil', '/'
+        li
+          = link_to "L'esprit Bovary", '/esprit-bovary'
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            | Nos champagnes
+            b.mls.mbs.caret
+          ul.dropdown-menu
+            - data.products.each do |product|
+              li= link_to product.title, "/products/#{product.slug}"
+        li
+          = link_to 'Contact', '/contact'

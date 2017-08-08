@@ -1,0 +1,55 @@
+-
+  description: |
+    <p>Champagne emblématique de la Maison Bovary, il est l'expression du raffinement et de l'élégance.</p>
+    <p>Cet assemblage savamment dosé permet à cette cuvée brut premier cru de bénéficier d'une renommée et d'une qualité intemporelle. Une flûte de ce champagne vous transporte vers un imaginaire artistique et poétique : toute l'âme Bovaryenne.</p>
+    <p>Son tourbillon de fines bulles laisse entremêler l'art et la littérature, Tandis que son nez vous emmènera aux jardins fleuris d'époque.</p>
+    <p>Ce final soigneusement harmonisé, accompagnera à merveille la réussite de vos moments inoubliables.</p>
+    <p> </p>
+    <p>La vue : sa robe est d'un bel or pur. Ce trésor est accompagné d'un tumulte de fines bulles.</p>
+    <p>L'odorat : le nez frémi par les arômes floraux et d'aubépine. L'acacia renforce la sensation de finesse.</p>
+    <p>Le goût : la bouche est délicate et d'un bel équilibre.</p>
+    <p>L'assemblage : mariage parfait des trois cépages : 40% chardonnay, 40% pinot noir et 20% pinot Meunier.</p>
+  image: products/brut.jpg
+  price: 32.0
+  slug: brut
+  title: Le Raffinement du Champagne Brut Premier Cru
+
+-
+  description: |
+    <p>Admirez la beauté d'un couché du soleil, le toucher délicat d'une étoffe, le croquant et la douceur d'un macaron, la senteur d'un bouquet du jardin... Puis délectez-vous du délice enivrant d'une flûte de champagne rosé Bovary teinté du bonheur de moments intimes. Succombez ainsi à sa délicate teinte rosée qui le pare de féminité, de chic et de glamour...</p>
+    <p>Appréciez l'alchimie maîtrisée entre Chardonnay, Pinot noir et vin rouge champagne. L'explosion de saveurs qui en résulte s'accordera parfaitement avec toutes vos audaces culinaires, plaisirs sucrés et salés.</p>
+    <p>La subtilité des bulles du champagne rosé vous emmèneront dans l'univers du charme et des gourmandises de l'esprit Bovary.</p>
+    <p> </p>
+    <p>La vue : sa robe a la couleur de la passion et de l'amour. Ses bulles sont fines et délicates. Une élégance toute "Bovaryenne".</p>
+    <p>L'odorat : le nez affiche des arômes de fleurs de jasmin avec des allusions de fruits exotiques.</p>
+    <p>Le goût : doux et frais à la fois avec une touche de pamplemousse rose.</p>
+    <p>L'assemblage : 70% chardonnay, 20% Pinot noir, 10% de vin rouge champagne.</p>
+  image: products/rose.jpg
+  price: 35.0
+  slug: rose
+  title: Le Romantisme du Champagne Rosé Premier Cru
+
+-
+  description: |
+    <p>Le champagne Blanc de Blancs est élaboré intégralement de Chardonnay. Ce cépage est l'esprit de la maison Bovary : il est au coeur de chacun de nos champagnes.</p>
+    <p>Doux et distingué, il n'exprime sa force et son caractère qu'au terme d'années de maturation. Il emporte dans un monde lointain oû la délicatesse et la précision s'expriment, oû la grâce et l'élégance sont majestés. </p>
+    <p>Elaboré en plein coeur de la côte des blancs, ce vin de champagne est né du mariage de l'authenticité et de la pureté. Sa luminosité évoque la fraîcheur de la neige, ses bulles rappellent la légèreté des flocons : il inspire l'émerveillement, comme face à un sommet immaculé.</p>
+    <p>Sa rareté très convoitée fera de votre réception un moment privilégié. </p>
+    <p> </p>
+    <p>La vue : sa robe a la couleur du paradis blanc : limpide et brillant. Un tourbillon de bulles pour envoûtement.</p>
+    <p>L'odorat : le nez est frais grâce aux arômes de fleurs blanches, avec à l'aération, une touche d'abricot.</p>
+    <p>Le goût : des notes délicates de réglisse et d'anis confèrent une belle longueur en bouche.</p>
+    <p>L'assemblage : 100% chardonnay.</p>
+  image: products/blanc_de_blanc.jpg
+  price: 36.0
+  slug: blanc_de_blanc
+  title: La Pureté du Champagne Blanc de Blancs Premier Cru
+
+-
+  description: |
+    <p>Capable de séduire les plus exigeants grâce à son assemblage équilibré, en proportion égal entre Pinot Noir, Pinot meunier et Chardonnay, qui fait la fierté de la maison Bovary.</p>
+    <p>Il se prêtera tant dans vos réceptions intimistes que dans vos séminaires.</p>
+  image: products/brut_pro.jpg
+  price: 19.5
+  slug: brut_pro
+  title: Le Professionnalisme du Champagne BOVARY Brut

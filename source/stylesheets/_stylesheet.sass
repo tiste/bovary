@@ -1,0 +1,37 @@
+@mixin background-size($size)
+  background-size: $size
+  -webkit-background-size: $size
+  -moz-background-size: $size
+  -o-background-size: $size
+
+body
+  background-color: #FEFEFE
+
+.cover
+  @include background-size(cover)
+
+.contain
+  @include background-size(contain)
+
+.push-under-header
+  padding-top: 150px
+
+.z-index-10
+  z-index: 10
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, nav
+  font-family: Lora
+
+.upper
+  text-transform: uppercase
+
+.l-esprit-bovary
+  background-image: image-url('products/all.jpg')
+  background-position: center 150%
+
+#m-carousel
+  & .item
+    max-height: 500px
+
+.m-footer, .m-footer a
+  color: #69685d
